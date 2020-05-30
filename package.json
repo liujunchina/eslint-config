@@ -1,0 +1,17 @@
+{
+	"name": "@lj/eslint-config-lj",
+	"version": "0.0.1",
+	"description": "个人eslint风格",
+	"author": "Liujun <870395192@qq.com>",
+	"license": "MIT",
+
+	"main": "index.js",
+	"repository": "https://github.com/liujunchina/eslint-config.git",
+	"homepage": "https://github.com/liujunchina/eslint-config",
+	"dependencies": {
+		"eslint": "^5.9.0",
+		"babel-eslint": "^8.2.1",
+		"confusing-browser-globals": "^1.0.5",
+		"eslint-plugin-import": "^2.14.0"
+	}
+}
