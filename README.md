@@ -1,23 +1,23 @@
-# eslint-config-lj
+# @lljj/eslint-config
 ## 说明
 基于 eslint-config-airbnb-base 结合个人习惯的eslint风格
 
 ## 安装
 npm
 ``` bash
-npm install eslint-config-lj -D
+npm install @lljj/eslint-config -D
 ```
 
 yarn 
 ``` bash
-yarn add eslint-config-lj --dev
+yarn add @lljj/eslint-config --dev
 ```
 
 ### 启用
 在项目根目录添加 `.eslintrc` 文件
 ``` json
 {
-    "extends": "eslint-config-lj",
+    "extends": "@lljj/eslint-config",
     "plugins": [
     ],
     "rules": [
