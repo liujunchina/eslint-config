@@ -1,5 +1,5 @@
 {
-	"name": "lj-eslint-config",
+	"name": "@ljun/eslint-config",
 	"version": "0.1.1",
 	"description": "个人eslint风格",
 	"author": "Liujun <870395192@qq.com>",
