@@ -1,6 +1,6 @@
 {
 	"name": "@lj/eslint-config-lj",
-	"version": "0.0.1",
+	"version": "0.1.0",
 	"description": "个人eslint风格",
 	"author": "Liujun <870395192@qq.com>",
 	"license": "MIT",
