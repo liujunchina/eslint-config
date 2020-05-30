@@ -19,10 +19,8 @@ yarn add @lj/eslint-config --dev
 {
     "extends": "@lj/eslint-config",
     "plugins": [
-        // 项目需要的插件
     ],
     "rules": [
-        // 项目个性化规则配置
     ]
 }
 ```
