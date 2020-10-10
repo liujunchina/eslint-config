@@ -8,7 +8,10 @@ module.exports = {
         // 修改vue/html中缩进
         "vue/html-indent": [
             "error",
-            4
+            4,
+            {
+                'baseIndent': 1
+            }
         ],
         'vue/script-indent': [
             'error',
@@ -20,5 +23,13 @@ module.exports = {
         "vue/no-v-html": "off",
         "vue/html-self-closing": "off",
         "vue/singleline-html-element-content-newline": "off",
-    }
+    },
+    overrides: [
+        {
+            files: ["*.vue"],
+            rules: {
+                "indent": "off",
+            }
+        }
+    ]
 };
