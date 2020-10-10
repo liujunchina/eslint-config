@@ -10,10 +10,14 @@
 	"main": "index.js",
 	"repository": "https://github.com/liujunchina/eslint-config.git",
 	"homepage": "https://github.com/liujunchina/eslint-config",
-	"dependencies": {
-		"eslint": "^5.9.0",
-		"babel-eslint": "^8.2.1",
-		"confusing-browser-globals": "^1.0.5",
+	"peerDependencies": {
+		"eslint": "^5.16.0 || ^6.8.0 || ^7.2.0",
 		"eslint-plugin-import": "^2.14.0"
+	},
+	"devDependencies": {
+		"eslint-plugin-vue": "^5.0.0"
+	},
+	"dependencies": {
+		"confusing-browser-globals": "^1.0.5"
 	}
 }

@@ -1,5 +1,4 @@
 module.exports = {
-    "parser": "babel-eslint",
     extends:
         [
             './rules/best-practices.js',
@@ -8,13 +7,11 @@ module.exports = {
             './rules/style.js',
             './rules/variables.js',
             './rules/es6.js',
-            './rules/imports.js'
+            './rules/imports.js',
+            './rules/strict',
         ],
     parserOptions: {
         ecmaVersion: 2018,
         sourceType: 'module'
-    },
-    rules: {
-        strict: 'error'
     }
 };
