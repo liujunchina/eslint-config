@@ -8,10 +8,10 @@ module.exports = {
             './rules/variables.js',
             './rules/es6.js',
             './rules/imports.js',
-            './rules/strict',
+            './rules/strict.js',
         ],
     parserOptions: {
-        ecmaVersion: 2018,
+        ecmaVersion: 2020,
         sourceType: 'module'
     }
 };
