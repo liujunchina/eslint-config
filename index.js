@@ -11,7 +11,7 @@ module.exports = {
             './rules/strict.js',
         ],
     parserOptions: {
-        ecmaVersion: 2020,
+        ecmaVersion: 2018,
         sourceType: 'module'
     }
 };
